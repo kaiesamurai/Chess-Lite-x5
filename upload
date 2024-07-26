@@ -1,0 +1,6 @@
+rm src/Chenglite
+git add .
+echo "Describe the changes you've done"
+read changes
+git commit -m $changes
+git push
